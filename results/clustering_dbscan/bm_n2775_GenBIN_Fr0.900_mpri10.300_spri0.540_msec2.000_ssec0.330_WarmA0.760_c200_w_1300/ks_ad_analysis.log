@@ -1,0 +1,17 @@
+================================================================================
+MANUAL EXPERIMENT RUN
+================================================================================
+Cluster 1 file: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n2775_GenBIN_Fr0.900_mpri10.300_spri0.540_msec2.000_ssec0.330_WarmA0.760_c200_w_1300/amd_cluster0.npy
+Cluster 2 file: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n2775_GenBIN_Fr0.900_mpri10.300_spri0.540_msec2.000_ssec0.330_WarmA0.760_c200_w_1300/amd_cluster1.npy
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 2714 indices
+Cluster 2 consists of: 0 indices
+
+KS Statistic: nan
+P-value: nan
+
+Cannot reject null hypothesis (p >= 0.05)
+The two clusters come from similar/same distributions!
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 2714 indices
+Cluster 2 consists of: 0 indices

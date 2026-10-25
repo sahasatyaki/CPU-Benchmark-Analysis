@@ -1,0 +1,25 @@
+================================================================================
+EXPERIMENT: bm_n6000_GenBIN_Fr0.950_mpri15.300_spri0.400_msec1.000_ssec1.330_WarmA0.000_c0_w_0
+================================================================================
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 4167 indices
+Cluster 2 consists of: 1833 indices
+
+KS Statistic: 0.016926
+P-value: 8.512695e-01
+
+Cannot reject null hypothesis (p >= 0.05)
+The two clusters come from similar/same distributions!
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 4167 indices
+Cluster 2 consists of: 1833 indices
+
+AD Statistic: -0.760782
+P-value: 2.500000e-01
+
+Cannot reject null hypothesis (p >= 0.05)
+   The two clusters come from similar/same distributions!
+
+COMPARISON SUMMARY
+KS Change Point: None
+AD Change Point: None

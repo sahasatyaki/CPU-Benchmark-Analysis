@@ -1,0 +1,43 @@
+================================================================================
+EXPERIMENT: bm_n2525_GenBIN_Fr1.000_mpri12.300_spri0.340_msec0.000_ssec0.000_WarmA2.000_c200_w_200
+================================================================================
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 307 indices
+Cluster 2 consists of: 2218 indices
+
+KS Statistic: 0.967179
+P-value: 1.531604e-322
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change Point (window size = 100):
+Change point detected at index: 303
+Maximum KS statistic: 0.890000
+
+✓ Plot saved to: results/clustering_kmeans/bm_n2525_GenBIN_Fr1.000_mpri12.300_spri0.340_msec0.000_ssec0.000_WarmA2.000_c200_w_200/ks_test_analysis.png
+
+Distribution Analysis Around Change Point (303):
+Before: Cluster 1: 296 points, Cluster 2: 7 points
+After:  Cluster 1: 11 points, Cluster 2: 2211 points
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 307 indices
+Cluster 2 consists of: 2218 indices
+
+AD Statistic: 728.363404
+P-value: 1.000000e-03
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change point detection (window size = 100):
+Change point detected at index: 303
+Maximum AD statistic: 207.864152
+
+✓ Plot saved to: results/clustering_kmeans/bm_n2525_GenBIN_Fr1.000_mpri12.300_spri0.340_msec0.000_ssec0.000_WarmA2.000_c200_w_200/ad_test_analysis.png
+
+Distribution Analysis Around Change Point (303):
+Before: Cluster 1: 296 points, Cluster 2: 7 points
+After:  Cluster 1: 11 points, Cluster 2: 2211 points
+
+COMPARISON SUMMARY
+KS Change Point: 303
+AD Change Point: 303

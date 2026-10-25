@@ -1,0 +1,15 @@
+================================================================================
+EXPERIMENT: bm_n2000_GenExp_rate0.800_bump=10.000_WarmA0.760_c200_w_1300
+================================================================================
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 1876 indices
+Cluster 2 consists of: 0 indices
+
+KS Statistic: nan
+P-value: nan
+
+Cannot reject null hypothesis (p >= 0.05)
+The two clusters come from similar/same distributions!
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 1876 indices
+Cluster 2 consists of: 0 indices

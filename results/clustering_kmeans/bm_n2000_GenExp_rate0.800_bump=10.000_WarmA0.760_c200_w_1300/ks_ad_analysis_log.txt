@@ -1,0 +1,52 @@
+KS and AD test on KMeans clusters performed using sklearn and AMD AOCL
+
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 456 indices
+Cluster 2 consists of: 1544 indices
+
+KS Statistic: 0.147021
+P-value: 4.161560e-07
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change Point (window size = 100):
+Change point detected at index: 773
+Maximum KS statistic: 0.140000
+
+✓ Plot saved to: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_kmeans/bm_n2000_GenExp_rate0.800_bump=10.000_WarmA0.760_c200_w_1300/ks_test_analysis.png
+
+Distribution Analysis Around Change Point (773):
+Before: Cluster 1: 228 points, Cluster 2: 545 points
+After:  Cluster 1: 228 points, Cluster 2: 999 points
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 456 indices
+Cluster 2 consists of: 1544 indices
+
+AD Statistic: 15.118817
+P-value: 1.000000e-03
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change point detection (window size = 100):
+Change point detected at index: 1292
+Maximum AD statistic: 6.067876
+
+✓ Plot saved to: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_kmeans/bm_n2000_GenExp_rate0.800_bump=10.000_WarmA0.760_c200_w_1300/ad_test_analysis.png
+
+Distribution Analysis Around Change Point (1292):
+Before: Cluster 1: 323 points, Cluster 2: 969 points
+After:  Cluster 1: 133 points, Cluster 2: 575 points
+
+COMPARISON SUMMARY
+
+Kolmogorov-Smirnov Test:
+  Statistic: 0.147021
+  P-value: 4.161560e-07
+  Change Point: 773
+
+Anderson-Darling Test:
+  Statistic: 15.118817
+  P-value: 1.000000e-03
+  Change Point: 1292
+
+Change Point Difference: 519 indices

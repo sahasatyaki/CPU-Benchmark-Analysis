@@ -1,0 +1,45 @@
+================================================================================
+MANUAL EXPERIMENT RUN
+================================================================================
+Cluster 1 file: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n3668_GenBIN_Fr0.500_mpri5.300_spri0.600_msec3.000_ssec0.100_WarmA2.000_c200_w_200/amd_cluster0.npy
+Cluster 2 file: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n3668_GenBIN_Fr0.500_mpri5.300_spri0.600_msec3.000_ssec0.100_WarmA2.000_c200_w_200/amd_cluster1.npy
+KOLMOGOROV-SMIRNOV TEST
+Cluster 1 consists of: 118 indices
+Cluster 2 consists of: 1985 indices
+
+KS Statistic: 0.971788
+P-value: 4.120009e-150
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change Point (window size = 100):
+Change point detected at index: 282
+Maximum KS statistic: 0.683333
+
+✓ Plot saved to: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n3668_GenBIN_Fr0.500_mpri5.300_spri0.600_msec3.000_ssec0.100_WarmA2.000_c200_w_200/ks_test_analysis.png
+
+Distribution Analysis Around Change Point (282):
+Before: Cluster 1: 118 points, Cluster 2: 56 points
+After:  Cluster 1: 0 points, Cluster 2: 1929 points
+ANDERSON-DARLING TEST
+Cluster 1 consists of: 118 indices
+Cluster 2 consists of: 1985 indices
+
+AD Statistic: 332.172615
+P-value: 1.000000e-03
+
+Reject null hypothesis (p < 0.05)
+The two clusters come from different distributions!
+Change point detection (window size = 100):
+Change point detected at index: 283
+Maximum AD statistic: 80.048564
+
+✓ Plot saved to: /Users/ashwin/Desktop/AMD_simulated_benchmarks/results/clustering_dbscan/bm_n3668_GenBIN_Fr0.500_mpri5.300_spri0.600_msec3.000_ssec0.100_WarmA2.000_c200_w_200/ad_test_analysis.png
+
+Distribution Analysis Around Change Point (283):
+Before: Cluster 1: 118 points, Cluster 2: 56 points
+After:  Cluster 1: 0 points, Cluster 2: 1929 points
+
+COMPARISON SUMMARY
+KS Change Point: 282
+AD Change Point: 283
